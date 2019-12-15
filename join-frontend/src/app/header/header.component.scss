@@ -8,12 +8,23 @@ $navbar-elm-height: 1.5em;
 }
 
 .navbar {
+<<<<<<< HEAD
   .navbar-brand {
     font-family: FreakGrotesk, sans-serif;
     font-size: $h1-font-size;
     padding: 0;
     height: $navbar-elm-height;
     letter-spacing: -5px;
+=======
+  margin-bottom:1em;
+  .navbar-brand {
+    font-family: FreakGrotesk, sans-serif;
+    text-transform: lowercase;
+    font-size: $h1-font-size;
+    padding: 0;
+    height: $navbar-elm-height;
+    letter-spacing: -20px;
+>>>>>>> notte/master
   }
   .navbar-sos-toggler {
     border: none;
@@ -23,6 +34,10 @@ $navbar-elm-height: 1.5em;
     height: $navbar-elm-height;
     // this has to be here and not in the icon's :before to align toggler with brand
     font-family: FreakGrotesk, sans-serif;
+<<<<<<< HEAD
+=======
+    font-weight: 100!important;
+>>>>>>> notte/master
     .navbar-toggler-icon {
       height: auto;
       width: auto;
@@ -80,7 +95,11 @@ $navbar-elm-height: 1.5em;
   }
   .btn-link, a {
     color: white;
+<<<<<<< HEAD
     font-weight: bold;
+=======
+    font-weight: 100;
+>>>>>>> notte/master
   }
   .nav-divider {
     margin-bottom: map_get($spacers, 3);
@@ -89,7 +108,11 @@ $navbar-elm-height: 1.5em;
     font-size: $font-size-sm;
     &:before {
       content: $right-arrow;
+<<<<<<< HEAD
       font-weight: bold;
+=======
+      font-weight: 100;
+>>>>>>> notte/master
     }
     &:hover {
       a, .btn-link {

@@ -130,7 +130,7 @@ export const LANG_IT_VALUES = {
 
   'bazaar.filters.teachActivity.lecture_performance': 'Lezioni performance',
   'bazaar.filters.teachActivity.labs_seminary': 'Laboratori - Seminari',
-  'bazaar.filters.teachActivity.xyz_format': 'Format XYZ',
+  'bazaar.filters.teachActivity.xyz_format': 'Format orizzontali',
   'bazaar.filters.teachActivity.cultural_event': 'Eventi culturali',
   'bazaar.filters.teachActivity.vertical_format': 'Format verticali',
   'bazaar.filters.teachActivity.machine_usage': 'Utilizzo macchine',
@@ -321,7 +321,7 @@ export const LANG_IT_VALUES = {
   'bazaar.comments.error': 'Commento non salvato correttamente...',
   'bazaar.comments.send': 'Invia',
 
-  'membership.title': 'La tua membership SOS - Open Design School',
+  'membership.title': 'La tua membership ODS - Open Design School',
   'membership.heading': 'Membership',
   'membership.type': 'Tipologia',
   'membership.requestNew': 'ATTIVA',
@@ -356,7 +356,7 @@ export const LANG_IT_VALUES = {
 
   'activities.activityTypes.teach.lecture_performance': 'Lezioni',
   'activities.activityTypes.teach.labs_seminary': 'Laboratori',
-  'activities.activityTypes.teach.xyz_format': 'Format XYZ',
+  'activities.activityTypes.teach.xyz_format': 'Format orizzontali',
   'activities.activityTypes.teach.cultural_event': 'Eventi culturali',
   'activities.activityTypes.teach.vertical_format': 'Format verticali',
   'activities.activityTypes.teach.machine_usage': 'Utilizzo macchine',
@@ -436,7 +436,7 @@ export const LANG_IT_VALUES = {
 
   'activity.teachEvent.subscribe': 'Iscriviti',
   'activity.teachEvent.paypal': 'PayPal',
-  'activity.teachEvent.credit': 'Carta di credito',
+  'activity.teachEvent.credit': 'Carte',
   'activity.teachEvent.wire': 'Bonifico',
   'activity.teachEvent.credit.number': 'Numero di carta',
   'activity.teachEvent.credit.cvv': 'CVV',
@@ -492,12 +492,12 @@ export const LANG_IT_VALUES = {
 
 
   'paymentMethods.paypal': 'PayPal',
-  'paymentMethods.credit_card': 'Carta di credito',
+  'paymentMethods.credit_card': 'Carte',
   'paymentMethods.wire_transfer': 'Bonifico',
 
 
-  'fablab.title': 'FabLab - Open Design School',
-  'fablab.heading': 'Macchinari/Spazi',
+  'fablab.title': 'Laboratorio - Open Design School',
+  'fablab.heading': 'Macchinari',
 
   'fablab.machine': 'Macchinario:',
   'fablab.machine.workArea': 'Area di lavoro',
@@ -568,6 +568,6 @@ export const LANG_IT_VALUES = {
   'util.schedule.recurring.year': 'anno',
   'util.schedule.recurring.every': 'ogni',
 
-  'true': 'Sì',
+  'true': 'Si',
   'false': 'No'
 };
