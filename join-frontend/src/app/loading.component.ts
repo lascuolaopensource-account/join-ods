@@ -8,11 +8,7 @@ import {AuthService} from "@sos/sos-ui-shared";
   template: `
     <div id="loading-overlay" *ngIf="loadingService.loading">
       <div>
-<<<<<<< HEAD
-        <div class="sos-icon skull"></div>
-=======
         <div class="headline"><span>Open Design School</span></div>
->>>>>>> notte/master
         <div *ngIf="!authService.showLogin" [innerHTML]="'loading.load' | translate"></div>
         <div *ngIf="authService.showLogin">
           <button (click)="clickLogin($event)" class="btn btn-black"
@@ -24,11 +20,7 @@ import {AuthService} from "@sos/sos-ui-shared";
   styles: [`
     #loading-overlay {
       background-color: white;
-<<<<<<< HEAD
-      color: black;
-=======
       color: #641eb4;
->>>>>>> notte/master
       width: 100%;
       height: 100%;
       position: fixed;

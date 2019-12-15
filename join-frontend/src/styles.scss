@@ -15,8 +15,6 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
 .fluid-content {
   @include padding-x(map_get($spacers, 3));
 }
-<<<<<<< HEAD
-=======
 
 h1.title{
   font-size: 2.74rem!important;
@@ -33,7 +31,6 @@ h1.title{
   }
 }
 
->>>>>>> notte/master
 @include media-breakpoint-up(lg) {
   .fluid-content {
     @include padding-x($spacer * 4);
@@ -197,9 +194,6 @@ h1.title{
   }
 }
 
-<<<<<<< HEAD
-
-=======
 .headline {
   span{
     font-family: FreakGrotesk, sans-serif;
@@ -210,7 +204,6 @@ h1.title{
     width: 70%;
   }
 }
->>>>>>> notte/master
 .tag-editor {
   border: 2px solid black;
   font-size: inherit;

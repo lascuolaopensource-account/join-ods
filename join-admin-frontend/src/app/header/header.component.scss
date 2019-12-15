@@ -12,18 +12,11 @@ $block-flex-basis: 15rem;   // must be big enough to contain all variations for 
 .navbar {
   .navbar-brand {
     font-family: FreakGrotesk, sans-serif;
-<<<<<<< HEAD
-    font-size: $h1-font-size;
-    padding: 0;
-    height: $navbar-elm-height;
-    letter-spacing: -5px;
-=======
     text-transform: lowercase;
     font-size: $h1-font-size;
     padding: 0;
     height: $navbar-elm-height;
     letter-spacing: -20px;
->>>>>>> notte/master
     flex-basis: $block-flex-basis;
   }
   .period-selector {
@@ -64,10 +57,7 @@ $block-flex-basis: 15rem;   // must be big enough to contain all variations for 
     height: $navbar-elm-height;
     // this has to be here and not in the icon's :before to align toggler with brand
     font-family: FreakGrotesk, sans-serif;
-<<<<<<< HEAD
-=======
     font-weight: 100!important;
->>>>>>> notte/master
     .navbar-toggler-icon {
       height: auto;
       width: auto;
